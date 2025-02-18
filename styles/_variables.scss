@@ -1,0 +1,31 @@
+:root {
+  // colors
+	--black: #121212;
+	--blue: #0032e5;
+	--white: #fff;
+	--grey: #f8f8f8;
+	--dark-grey: #ececec;
+	--opacity-white-70: rgba(255, 255, 255, 0.7);
+	--opacity-white-50: rgba(255, 255, 255, 0.5);
+	--opacity-white-30: rgba(255, 255, 255, 0.3);
+	--opacity-white-10: rgba(255, 255, 255, 0.1);
+	--opacity-black-50: rgba(18, 18, 18, 0.5);
+	--opacity-black-20: rgba(18, 18, 18, 0.2);
+	--opacity-black-10: rgba(18, 18, 18, 0.1);
+	--opacity-blue-20: rgba(0, 50, 229, 0.2);
+	--opacity-blue-10: rgba(0, 50, 229, 0.1);
+
+  // fonts
+  --font-family: "Helvetica Neue", sans-serif;
+  --second-family: "Inter", sans-serif;
+  --third-family: "Neue Montreal", sans-serif;
+  --font3: "SF Pro Text", sans-serif;
+
+  // container
+  --container-width: 1900px;
+  --container-padding-x: 40px;
+  --container-padding-y: 80px;
+
+// transition
+--transition-duration: 0.2s;
+}
