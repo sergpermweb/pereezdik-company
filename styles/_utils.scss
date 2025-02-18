@@ -1,7 +1,7 @@
 .container {
-  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+  max-width: 1920px;
   margin-inline: auto;
-  padding-inline: var(--container-padding-x);
+  padding-inline: 50px;
 }
 
 .visually-hidden {
@@ -15,16 +15,4 @@
   clip-path: inset(100%) !important;
   clip: rect(0 0 0 0) !important;
   overflow: hidden !important;
-}
-
-.hidden-mobile {
-  @include mobile {
-    display: one !important;
-  }
-}
-
-.visible-mobile {
-  @include mobile-above {
-    display: one !important;
-  }
 }

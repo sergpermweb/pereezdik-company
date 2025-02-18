@@ -1,13 +1,81 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <title>Транспортная компания "Переездик"</title>
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <title>Транспортная компания "Переездик"</title>
+</head>
+
+<body>
+  <div class="header">
+    <header class="header-section">
+      <div class="container">
+        <div class="header__grids">
+          <div class="header__grid-left">
+            <a href="./index.html" class="header__logo">
+              <img src="./images/logo/logo-header.png" srcset="./images/logo/logo-header@2x.png" alt="Логотип"
+                class="logo" />
+            </a>
+            <div class="header-address hidden-mobile">г.Пермь</div>
+          </div>
+          <div class="header__grid-center hidden-mobile">
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="./transportation.html" class="nav__item-link">Грузоперевозки</a>
+                </li>
+                <li class="nav__item">
+                  <a href="./movers.html" class="nav__item-link">Грузчики</a>
+                </li>
+                <li class="nav__item">
+                  <a href="./moving.html" class="nav__item-link">Переезды</a>
+                </li>
+                <li class="nav__item">
+                  <a href="./blog.html" class="nav__item-link">Блог</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__grid-right">
+            <div class="header__contacts">
+              <div class="header__contacts-nav">
+                <div class="header__contacts-tel">
+                  <div class="header__arrow-right">
+                    <img src="./images/svg/arrow-right.svg" alt="Открыть подменю" />
+                  </div>
+                  <div class="header-tell">
+                    <a href="tel:+73422798259">+7 (342) 2798259</a>
+                  </div>
+                </div>
+                <ul class="header__social">
+                  <li class="header__schedule">ежедневно с 8:00 до 20:00</li>
+                  <li class="header__social-item">
+                    <a href="https://wa.me/79526556625" target="_blank" rel="noopener noreferrer">
+                      WhatsApp
+                    </a>
+                  </li>
+                  <li class="header__social-item">
+                    <a href="https://t.me/+79526556625" target="_blank" rel="noopener noreferrer">
+                      Telegram
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="header__button">
+              <button class="button-header" aria-label="Открыть модальное окно для срочного заказа" type="button">
+                Срочный заказ
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="hero"></section>
+  </div>
+</body>
+
 </html>

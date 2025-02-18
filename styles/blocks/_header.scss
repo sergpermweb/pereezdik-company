@@ -1,0 +1,135 @@
+.header {
+    background-image: image-set(
+      url("./../../images/home/header-bg.jpg") 1x,
+      url("./../../images/home/header-bg@2x.jpg") 2x
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-section {
+  padding-top:30px ;
+  padding-bottom: 50px;
+}
+
+.header__grids {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 40px;
+  padding: 10px;
+  background: var(--white);
+}
+.header__grid-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 194px;
+  height: 50px;
+}
+
+.header-address {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  color: var(--opacity-black-50);
+}
+
+.header__grid-center {
+margin-inline: auto;
+max-width: 467px;
+width: 100%;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__item {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: var(--black);
+}
+
+.header__grid-right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header__contacts-nav {
+  position: relative;
+}
+
+.header__contacts-tel {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-tell {
+  display: inline-block;
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: -0.02em;
+color: var(--black);
+}
+
+
+
+.header__social {
+  padding-top: 15px;
+  position: absolute;
+  background-color: var(--white);
+  width: 178px;
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 15px;
+line-height: 110%;
+letter-spacing: -0.02em;
+color: var(--black);
+}
+
+.header__schedule {
+  padding-bottom: 10px;
+}
+
+.header__social-item {
+  padding-top: 12px;
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: -0.02em;
+color: var(--black);
+
+}
+
+.button-header {
+  border-radius: 30px;
+padding: 15px;
+width: 225px;
+height: 50px;
+background: var(--blue);
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: -0.02em;
+color: var(--white);
+}
+
